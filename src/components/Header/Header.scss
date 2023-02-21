@@ -1,0 +1,156 @@
+// header-top  start
+.header-top{
+    padding: 15px 0;
+    background-color: rgb(10, 167, 10);
+
+    .header__top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &-link{
+            color: #fff;
+            font-size: 16px;
+            font-weight: 600;
+            padding: 8px 10px;
+            border-radius: 8px;
+            border: 1px solid #fff;
+        }
+    }
+
+    .header__top-lang{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        & > p {
+            cursor: pointer;
+            color: #bcaeae;
+            transition: all 0.4s;
+
+            &:hover{
+                color: #ffffffb3;
+            }
+        }
+
+        & > .lang-active {
+            color: #fff;
+        }
+
+        &-link {
+            margin-right: 30px;
+            color: #fff;
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
+}
+
+// @media only screen and (max-width: 555px) {
+    
+// }
+// header-top end
+
+// header
+.site-header{
+    padding: 20px 0;
+
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &__link{
+            font-size: 23px;
+            color: rgb(10, 167, 10);
+
+            & > p > span {
+                font-size: 25px;
+                color: #288406c3;
+            }
+        }
+
+        &__form{
+            position: relative;
+            
+            & > input {
+                width: 650px;
+                padding: 10px 15px;
+                outline: none;
+                border-radius: 10px;
+                border: none;
+                background-color: #F2F2F2;
+                border: 1px solid transparent;
+                transition: all 0.3s;
+                
+                &::placeholder{
+                    color: rgb(74, 61, 61);
+                }
+                
+                &:focus{
+                    border: 1px solid rgb(10, 167, 10);
+                }
+            }
+
+            & > button {
+                border: none;
+                background-color: transparent;
+                position: absolute;
+                right: 0px;
+                padding: 11px 20px;
+                background-color: rgb(10, 167, 10);
+                border-radius:  0 10px 10px 0;
+                cursor: pointer;
+                color: #fff;
+            }
+        }
+
+        &__card{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            text-align: center;
+
+            &-item{
+                cursor: pointer;
+                position: relative;
+                
+                & > div > i {
+                    font-size: 21px;
+                }
+
+                & > #Korzinka{
+                    position: absolute;
+                    top: -5px;
+                    right: 10px;
+                    width: 15px;
+                    height: 15x;
+                    border-radius: 50%;
+                    background-color: #222;
+                    color: #fff;
+                    font-size: 12px;
+                }
+
+                & > #Sevimlilar{
+                    position: absolute;
+                    top: -5px;
+                    right: 15px;
+                    width: 15px;
+                    height: 15x;
+                    border-radius: 50%;
+                    background-color: #222;
+                    color: #fff;
+                    font-size: 12px;
+                }
+
+                & > p {
+                    font-size: 16px;
+                    color: #222;
+                    font-weight: 300;
+                    letter-spacing: 0.3px;
+                }
+            }
+        }
+    }
+}
+// header
