@@ -114,6 +114,9 @@
             &-item{
                 cursor: pointer;
                 position: relative;
+                background-color: transparent;
+                text-decoration-color: none;
+                color: black;
                 
                 & > div > i {
                     font-size: 21px;
@@ -126,7 +129,7 @@
                     width: 15px;
                     height: 15x;
                     border-radius: 50%;
-                    background-color: #222;
+                    background-color: rgb(10, 167, 10);
                     color: #fff;
                     font-size: 12px;
                 }
@@ -138,7 +141,7 @@
                     width: 15px;
                     height: 15x;
                     border-radius: 50%;
-                    background-color: #222;
+                    background-color: rgb(10, 167, 10);
                     color: #fff;
                     font-size: 12px;
                 }
