@@ -1,0 +1,79 @@
+.site-carusel{
+    display: flex;
+    justify-content: space-between;
+}
+.carusel_katalog{
+    max-width: 350px;
+    width: 100%;
+}
+.carusel{
+    max-width: 900px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+
+    & > #carouselList{
+        display: flex;
+        align-items: center;
+        transition: all 0.5s ease-in-out;
+    
+        & > .carusel__item{
+    
+            & > img{
+                width: 900px;
+                position: relative;
+            }
+        }
+    }
+
+    & > .LeftCarusel{
+         position: absolute;
+         top: 50%;
+         left: 0px;
+         border: none;
+         background-color: transparent;
+         cursor: pointer;
+         transition: all 0.5s ;
+
+         & > i {
+            font-size: 25px;
+            opacity: 0;
+         }
+        }
+
+    & > .RightCarusel{
+        position: absolute;
+        right: 0px;
+        top: 50%;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        transition: all 0.5s ;
+
+        & > i {
+            font-size: 25px;
+            opacity: 0;
+        }
+
+    }
+
+    &:hover{
+    
+        &  > .RightCarusel > i {
+            opacity: 1;
+        }
+
+        & > .LeftCarusel {
+            left: 15px;
+        }
+
+        & > .RightCarusel{
+            right: 15px;
+        }
+
+        &  > .LeftCarusel > i {
+            opacity: 1;
+        }
+    }
+}

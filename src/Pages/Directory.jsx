@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Discounts() {
+function Directory() {
   return (
     <div>
-      sekitkalar
+      Directory
     </div>
   )
 }
 
-export default Discounts
+export default Directory
