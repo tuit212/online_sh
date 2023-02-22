@@ -22,7 +22,7 @@ function Carusel() {
                 <Directory/>
             </div>
             <div className='carusel'>
-                <div  id='carouselList' style={{transform:'translateX(0px)'}}>
+                <div  id='carouselList' style={{transform:'translateX(-1300px)'}}>
                     <div className='carusel__item'>
                         <img src={Banner2} alt="carusel" />
                     </div>

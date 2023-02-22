@@ -1,4 +1,5 @@
 .site-carusel{
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
 }
@@ -11,18 +12,19 @@
     width: 100%;
     position: relative;
     overflow: hidden;
-    border-radius: 20px;
-
+    
     & > #carouselList{
         display: flex;
         align-items: center;
         transition: all 0.5s ease-in-out;
+        border-radius: 20px;
     
         & > .carusel__item{
     
             & > img{
                 width: 900px;
                 position: relative;
+                border-radius: 20px;
             }
         }
     }

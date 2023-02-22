@@ -1,0 +1,48 @@
+.site-directory{
+    max-width: 350px;
+    width: 100%;
+    padding: 0px 30px 30px 15px;
+
+    .directory__item{
+        padding: 15px 15px 15px 8px;
+        cursor: pointer;
+        border-radius: 5px;
+        position: relative;
+
+        & > .fa-solid{
+            margin-right: 13px;
+        }
+
+        &:hover{
+            background-color: rgb(10, 167, 10);
+            color: #fff;
+        }
+    }
+
+    .directory__line{
+        position: absolute;
+        left: 8px;
+        top: 19px;
+
+        & > span {
+            display: block;
+            width: 22px;
+            margin: 3px 0;
+            padding: 1px 0 0 0;
+            background-color: rgb(10, 167, 10);
+        }
+    }
+
+    .directory__item:first-child{
+        padding-left: 40px;
+    }
+
+    .directory__item:hover{
+
+        & > .directory__line {
+            & > span {
+                background-color: #fff;
+            }
+        }
+    }
+}

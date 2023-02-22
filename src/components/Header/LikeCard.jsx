@@ -15,6 +15,10 @@ function LikeCard() {
             <span id='Korzinka'>0</span>
         </li>
         <li className='header__card-item' title='Kirish'>
+            <div><i class="fa-sharp fa-solid fa-truck"></i></div>
+            <p>Truck</p>
+        </li>
+        <li className='header__card-item' title='Kirish'>
             <div><i class="fa-solid fa-user" ></i></div>
             <p>Kirish</p>
         </li>
