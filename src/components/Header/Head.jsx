@@ -1,6 +1,7 @@
 import React from 'react' 
 import "./Header.scss";
 import { Link } from 'react-router-dom'
+import HeaderInUserName from './HeaderInUserName';
 
 function Head() {
   return (
@@ -15,6 +16,7 @@ function Head() {
                 </a>
                 <p className='lang-active'>O'z</p>
                 <p>Eng</p>
+                <HeaderInUserName/>
             </div>
           </div>
         </div>
